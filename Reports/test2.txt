@@ -1,0 +1,2 @@
+Test 2 - update sistemi recursive mirror dogrulama dosyasi.
+Bu dosya Yayinla.ps1 calistiginda posingoupdate/Reports/test2.txt olarak gonderilmeli.
