@@ -1,0 +1,874 @@
+object BlockDocument: BlockDocument
+  UnitType = Millimeter
+  Paper.Kind = Custom
+  Paper.Orientation = Portrait
+  Paper.Width = 58.000000000000000000
+  Paper.Height = 40.000000000000000000
+  Paper.TamSayfaGenislik = 58.000000000000000000
+  Paper.TamSayfaYukseklik = 40.000000000000000000
+  Paper.EtiketSatir = 1
+  Paper.EtiketSutun = 1
+  Paper.EtiketSayisi = 2
+  Paper.EtiketTekrarSayisi = 1
+  Paper.BaslangicSatir = 1
+  Paper.BaslangicSutun = 1
+  Paper.EtiketCercevesi = False
+  Paper.SayfaAdi = 'isimsiz'
+  Paper.SekilDiktorgen = True
+  Paper.YaziciAdi = 'Samsung M2020 Series'
+  Paper.ConString = 
+    'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\cnr191\App' +
+    'Data\Local\Apps\2.0\44TH15BX.86M\QQJYQJOZ.JNY\nar1..tion_ed375da' +
+    'bf7889862_0001.0000_330557c9f23e199b\Barkod.mdb;Persist Security' +
+    ' Info=False;'
+  Paper.DataKullan = True
+  Paper.TableName = 'DEMIRBAS'
+  Paper.Alanlar.Strings = (
+    'ad'
+    'adi'
+    'alt_grup'
+    'ana_grup'
+    'anne_adi'
+    'ayrilma_sebebi'
+    'baba_adi'
+    'bakim_periyotu'
+    'barkod'
+    'bolumu'
+    'cinsiyet'
+    'cocuk_sayisi'
+    'created_at'
+    'created_atPersonel'
+    'dogum_tarihi'
+    'dogum_yeri'
+    'eposta'
+    'garanti_baslangic_tarih'
+    'garanti_suresi'
+    'id'
+    'idPersonel'
+    'ise_giris_tarihi'
+    'isten_cikis_tarihi'
+    'kan_grubu'
+    'kat'
+    'kod'
+    'kodu'
+    'kullanici_durumu'
+    'kullanim_kat'
+    'kullanim_oda'
+    'marka'
+    'medeni_hali'
+    'mekan'
+    'miktar'
+    'model'
+    'nd_000_depo_id'
+    'nd_000_depo_idPersonel'
+    'nd_000_stok_altkategori_id'
+    'nd_000_stok_anakategori_id'
+    'nd_000_stok_beden_id'
+    'nd_000_stok_birim_id'
+    'nd_000_stok_renk_id'
+    'nd_006_personel_id'
+    'oda'
+    'ogrenim_durumu'
+    'seri_no'
+    'soyadi'
+    'tc_kimlik_no'
+    'universite'
+    'updated_at'
+    'updated_atPersonel')
+  Paper.SQL.Strings = (
+    'SELECT * FROM DEMIRBAS')
+  Paper.VeriSekli = daADo
+  Paper.EtiketTekrarAlani = 'miktar'
+  Paper.DpiX = 600
+  Paper.DpiY = 600
+  Paper.Yon = aDikey
+  Paper.Scale = 1.000000000000000000
+  object Root
+    Align = salScale
+    BlockName = 'Root'
+    Grouped = False
+    Locked = False
+    Fill.Alpha = 255
+    Fill.Color = -1
+    Fill.Style = FillSolid
+    Fill.Pattern = FillPatternHorizontal
+    Fill.PatternColor = -16777216
+    Fill.GradientColor = -16777216
+    Fill.Texture.Data = {
+      3A000000424D3A00000000000000360000002800000001000000010000000100
+      1800000000000400000000000000000000000000000000000000FFFFFF00}
+    Stroke.Alpha = 255
+    Stroke.Clear = False
+    Stroke.Cap = CapFlat
+    Stroke.Color = -16777216
+    Stroke.Pattern = LinePaternSolid
+    Stroke.Width = 0.253999978303909300
+    Points = <>
+    Width = 58.000000000000000000
+    Height = 40.000000000000000000
+    Data = 0
+    FormatSekli = fmMetin
+    object YaziYaz
+      Align = salScale
+      BlockName = 'YaziYaz'
+      Grouped = False
+      Locked = False
+      Fill.Alpha = 255
+      Fill.Color = -1
+      Fill.Style = FillNone
+      Fill.Pattern = FillPatternHorizontal
+      Fill.PatternColor = -16777216
+      Fill.GradientColor = -16777216
+      Fill.Texture.Data = {
+        3A000000424D3A00000000000000360000002800000001000000010000000100
+        1800000000000400000000000000000000000000000000000000FFFFFF00}
+      Stroke.Alpha = 0
+      Stroke.Clear = False
+      Stroke.Cap = CapFlat
+      Stroke.Color = 0
+      Stroke.Pattern = LinePaternSolid
+      Points = <
+        item
+          Name = 'lefttop'
+          Align = paScale
+          Kind = pkLeftTop
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 27.500000000000100000
+          Name = 'top'
+          Align = paScale
+          Kind = pkTop
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 55.000000000000210000
+          Name = 'righttop'
+          Align = paScale
+          Kind = pkRightTop
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 55.000000000000210000
+          Y = 3.349999999999996000
+          Name = 'right'
+          Align = paScale
+          Kind = pkRight
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 55.000000000000210000
+          Y = 6.699999999999991000
+          Name = 'rightbottom'
+          Align = paScale
+          Kind = pkRightBottom
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 27.500000000000100000
+          Y = 6.699999999999991000
+          Name = 'bottom'
+          Align = paScale
+          Kind = pkBottom
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          Y = 6.699999999999991000
+          Name = 'leftbottom'
+          Align = paScale
+          Kind = pkLeftBottom
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          Y = 3.349999999999996000
+          Name = 'left'
+          Align = paScale
+          Kind = pkLeft
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          Name = 'BlockPoint37805536'
+          Align = paScale
+          Kind = pkRotateLeftTop
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          X = 55.000000000000210000
+          Name = 'BlockPoint37805624'
+          Align = paScale
+          Kind = pkRotateRightTop
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          X = 55.000000000000210000
+          Y = 6.699999999999991000
+          Name = 'BlockPoint37805712'
+          Align = paScale
+          Kind = pkRotateRightBottom
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          Y = 6.699999999999991000
+          Name = 'BlockPoint37805800'
+          Align = paScale
+          Kind = pkRotateLeftBottom
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          X = 27.500000000000100000
+          Y = -0.200000000000000000
+          Name = 'rotate'
+          Align = paTop
+          Kind = pkRotate
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          X = 27.500000000000100000
+          Y = 3.349999999999996000
+          Name = 'rotatecenter'
+          Align = paScale
+          Kind = pkRotateCenter
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          Y = 3.349999999999996000
+          Name = 'BlockPoint37807296'
+          Align = paScale
+          Kind = pkSnapPoint
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 27.500000000000100000
+          Name = 'BlockPoint37807384'
+          Align = paScale
+          Kind = pkSnapPoint
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 55.000000000000210000
+          Y = 3.349999999999996000
+          Name = 'BlockPoint37807472'
+          Align = paScale
+          Kind = pkSnapPoint
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 27.500000000000100000
+          Y = 6.699999999999991000
+          Name = 'BlockPoint37807560'
+          Align = paScale
+          Kind = pkSnapPoint
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 27.500000000000100000
+          Y = 3.349999999999996000
+          Name = 'BlockPoint37807648'
+          Align = paScale
+          Kind = pkBlockSnapPoint
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end>
+      Angle = 0.360000000000000000
+      Left = 1.762352828979492000
+      Top = 2.227853698730469000
+      Width = 55.000000000000000000
+      Height = 6.700000000000000000
+      Data = 0
+      EkranVeri = False
+      DataVeri = True
+      EkranVeriText = #214'rnek Metin'
+      DataVeriText = 'ad'
+      FormatSekli = fmMetin
+      object TextBlock
+        Align = salScale
+        BlockName = 'TextBlock'
+        Grouped = True
+        Locked = True
+        Fill.Alpha = 255
+        Fill.Color = -16777216
+        Fill.Style = FillSolid
+        Fill.Pattern = FillPatternHorizontal
+        Fill.PatternColor = -16777216
+        Fill.GradientColor = -16777216
+        Fill.Texture.Data = {
+          3A000000424D3A00000000000000360000002800000001000000010000000100
+          1800000000000400000000000000000000000000000000000000FFFFFF00}
+        Stroke.Alpha = 255
+        Stroke.Clear = True
+        Stroke.Cap = CapFlat
+        Stroke.Color = -16777216
+        Stroke.Pattern = LinePaternSolid
+        Stroke.Width = 0.010000000000000000
+        Points = <
+          item
+            Name = 'lefttop'
+            Align = paScale
+            Kind = pkLeftTop
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            X = 27.500003814697210000
+            Name = 'top'
+            Align = paScale
+            Kind = pkTop
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            X = 55.000007629394410000
+            Name = 'righttop'
+            Align = paScale
+            Kind = pkRightTop
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            X = 55.000007629394410000
+            Y = 3.349999904632565000
+            Name = 'right'
+            Align = paScale
+            Kind = pkRight
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            X = 55.000007629394410000
+            Y = 6.699999809265130000
+            Name = 'rightbottom'
+            Align = paScale
+            Kind = pkRightBottom
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            X = 27.500003814697210000
+            Y = 6.699999809265130000
+            Name = 'bottom'
+            Align = paScale
+            Kind = pkBottom
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            Y = 6.699999809265130000
+            Name = 'leftbottom'
+            Align = paScale
+            Kind = pkLeftBottom
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            Y = 3.349999904632565000
+            Name = 'left'
+            Align = paScale
+            Kind = pkLeft
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            Name = 'BlockPoint37806768'
+            Align = paScale
+            Kind = pkRotateLeftTop
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end
+          item
+            X = 55.000007629394410000
+            Name = 'BlockPoint37806856'
+            Align = paScale
+            Kind = pkRotateRightTop
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end
+          item
+            X = 55.000007629394410000
+            Y = 6.699999809265130000
+            Name = 'BlockPoint37806944'
+            Align = paScale
+            Kind = pkRotateRightBottom
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end
+          item
+            Y = 6.699999809265130000
+            Name = 'BlockPoint37807032'
+            Align = paScale
+            Kind = pkRotateLeftBottom
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end
+          item
+            X = 27.500003814697210000
+            Y = -0.200000000000000000
+            Name = 'rotate'
+            Align = paTop
+            Kind = pkRotate
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end
+          item
+            X = 27.500003814697210000
+            Y = 3.349999904632565000
+            Name = 'rotatecenter'
+            Align = paScale
+            Kind = pkRotateCenter
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end>
+        Width = 55.000007629394530000
+        Height = 6.699999809265137000
+        Data = 0
+        EkranVeri = False
+        DataVeri = True
+        EkranVeriText = #214'rnek Metin'
+        DataVeriText = 'ad'
+        FormatSekli = fmMetin
+        Text = 'ad'
+        FontFamily = 'Impact'
+        FontSize = 12.000000000000000000
+        FontStyle = [TextFontStyleRegular]
+        WordWrap = True
+        TextAlign = TextAlignCenter
+        VerticalTextAlign = TextAlignCenter
+        KarekterSeti = 1634908
+      end
+    end
+    object Barkod1D
+      Align = salScale
+      BlockName = 'Barkod1D'
+      Grouped = False
+      Locked = False
+      Fill.Alpha = 255
+      Fill.Color = -1
+      Fill.Style = FillNone
+      Fill.Pattern = FillPatternHorizontal
+      Fill.PatternColor = -16777216
+      Fill.GradientColor = -16777216
+      Fill.Texture.Data = {
+        3A000000424D3A00000000000000360000002800000001000000010000000100
+        1800000000000400000000000000000000000000000000000000FFFFFF00}
+      Stroke.Alpha = 0
+      Stroke.Clear = True
+      Stroke.Cap = CapFlat
+      Stroke.Color = 0
+      Stroke.Pattern = LinePaternSolid
+      Stroke.Width = 0.010000000000000000
+      Points = <
+        item
+          Name = 'lefttop'
+          Align = paScale
+          Kind = pkLeftTop
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 18.939999999999930000
+          Name = 'top'
+          Align = paScale
+          Kind = pkTop
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 37.879999999999850000
+          Name = 'righttop'
+          Align = paScale
+          Kind = pkRightTop
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 37.879999999999850000
+          Y = 7.990000000000023000
+          Name = 'right'
+          Align = paScale
+          Kind = pkRight
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 37.879999999999850000
+          Y = 15.980000000000030000
+          Name = 'rightbottom'
+          Align = paScale
+          Kind = pkRightBottom
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 18.939999999999930000
+          Y = 15.980000000000030000
+          Name = 'bottom'
+          Align = paScale
+          Kind = pkBottom
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          Y = 15.980000000000030000
+          Name = 'leftbottom'
+          Align = paScale
+          Kind = pkLeftBottom
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          Y = 7.990000000000023000
+          Name = 'left'
+          Align = paScale
+          Kind = pkLeft
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          Name = 'BlockPoint37808440'
+          Align = paScale
+          Kind = pkRotateLeftTop
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          X = 37.879999999999850000
+          Name = 'BlockPoint37808528'
+          Align = paScale
+          Kind = pkRotateRightTop
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          X = 37.879999999999850000
+          Y = 15.980000000000030000
+          Name = 'BlockPoint37808616'
+          Align = paScale
+          Kind = pkRotateRightBottom
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          Y = 15.980000000000030000
+          Name = 'BlockPoint37808704'
+          Align = paScale
+          Kind = pkRotateLeftBottom
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          X = 18.939999999999930000
+          Y = -0.200000000000000000
+          Name = 'rotate'
+          Align = paTop
+          Kind = pkRotate
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          X = 18.939999999999930000
+          Y = 7.990000000000023000
+          Name = 'rotatecenter'
+          Align = paScale
+          Kind = pkRotateCenter
+          Style = []
+          MoveStyle = msFree
+          Enabled = False
+        end
+        item
+          Y = 7.990000000000023000
+          Name = 'BlockPoint37810200'
+          Align = paScale
+          Kind = pkSnapPoint
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 18.939999999999930000
+          Name = 'BlockPoint37810288'
+          Align = paScale
+          Kind = pkSnapPoint
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 37.879999999999850000
+          Y = 7.990000000000023000
+          Name = 'BlockPoint37810376'
+          Align = paScale
+          Kind = pkSnapPoint
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 18.939999999999930000
+          Y = 15.980000000000030000
+          Name = 'BlockPoint37810464'
+          Align = paScale
+          Kind = pkSnapPoint
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end
+        item
+          X = 18.939999999999930000
+          Y = 7.990000000000023000
+          Name = 'BlockPoint37810552'
+          Align = paScale
+          Kind = pkBlockSnapPoint
+          Style = []
+          MoveStyle = msFree
+          Enabled = True
+        end>
+      Angle = -0.040000000000000000
+      Left = 8.684376144409178000
+      Top = 11.691874618530270000
+      Width = 37.880000000000000000
+      Height = 15.980000000000000000
+      Data = 0
+      EkranVeri = False
+      DataVeri = True
+      EkranVeriText = '869012341234'
+      ScriptText = 'DATA.BARKOD'
+      DataVeriText = 'barkod'
+      FormatSekli = fmMetin
+      Tip = bcEan8
+      BarkodYazi = 'barkod'
+      GuvenliCizim = True
+      YaziGoster = True
+      KorumaCizgisi = True
+      Aci = 0
+      Saydam = True
+      OtocheckDigit = False
+      FontOtomatik = True
+      object TextBlock
+        Align = salScale
+        BlockName = 'TextBlock'
+        Grouped = True
+        Locked = True
+        Fill.Alpha = 255
+        Fill.Color = -16777216
+        Fill.Style = FillSolid
+        Fill.Pattern = FillPatternHorizontal
+        Fill.PatternColor = -16777216
+        Fill.GradientColor = -16777216
+        Fill.Texture.Data = {
+          3A000000424D3A00000000000000360000002800000001000000010000000100
+          1800000000000400000000000000000000000000000000000000FFFFFF00}
+        Stroke.Alpha = 255
+        Stroke.Clear = True
+        Stroke.Cap = CapFlat
+        Stroke.Color = -16777216
+        Stroke.Pattern = LinePaternSolid
+        Stroke.Width = 0.010000000000000000
+        Points = <
+          item
+            Name = 'lefttop'
+            Align = paScale
+            Kind = pkLeftTop
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            X = 18.940057754516650000
+            Name = 'top'
+            Align = paScale
+            Kind = pkTop
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            X = 37.880115509033370000
+            Name = 'righttop'
+            Align = paScale
+            Kind = pkRightTop
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            X = 37.880115509033370000
+            Y = 7.989999771118154000
+            Name = 'right'
+            Align = paScale
+            Kind = pkRight
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            X = 37.880115509033370000
+            Y = 15.979999542236310000
+            Name = 'rightbottom'
+            Align = paScale
+            Kind = pkRightBottom
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            X = 18.940057754516650000
+            Y = 15.979999542236310000
+            Name = 'bottom'
+            Align = paScale
+            Kind = pkBottom
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            Y = 15.979999542236310000
+            Name = 'leftbottom'
+            Align = paScale
+            Kind = pkLeftBottom
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            Y = 7.989999771118154000
+            Name = 'left'
+            Align = paScale
+            Kind = pkLeft
+            Style = []
+            MoveStyle = msFree
+            Enabled = True
+          end
+          item
+            Name = 'BlockPoint37809672'
+            Align = paScale
+            Kind = pkRotateLeftTop
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end
+          item
+            X = 37.880115509033370000
+            Name = 'BlockPoint37809760'
+            Align = paScale
+            Kind = pkRotateRightTop
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end
+          item
+            X = 37.880115509033370000
+            Y = 15.979999542236310000
+            Name = 'BlockPoint37809848'
+            Align = paScale
+            Kind = pkRotateRightBottom
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end
+          item
+            Y = 15.979999542236310000
+            Name = 'BlockPoint37809936'
+            Align = paScale
+            Kind = pkRotateLeftBottom
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end
+          item
+            X = 18.940057754516650000
+            Y = -0.200000000000000000
+            Name = 'rotate'
+            Align = paTop
+            Kind = pkRotate
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end
+          item
+            X = 18.940057754516650000
+            Y = 7.989999771118154000
+            Name = 'rotatecenter'
+            Align = paScale
+            Kind = pkRotateCenter
+            Style = []
+            MoveStyle = msFree
+            Enabled = False
+          end>
+        Width = 37.880115509033200000
+        Height = 15.979999542236330000
+        Data = 0
+        FormatSekli = fmMetin
+        FontFamily = 'Arial'
+        FontSize = 10.000000000000000000
+        FontStyle = [TextFontStyleRegular]
+        WordWrap = True
+        TextAlign = TextAlignNear
+        VerticalTextAlign = TextAlignNear
+        KarekterSeti = 162
+      end
+    end
+  end
+end

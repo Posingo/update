@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="03/02/2016 03:33:08" ReportInfo.Modified="12/27/2018 13:31:34" ReportInfo.CreatorVersion="1.8.26.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="fatura1" Alias="fatura" ReferenceName="fatura" DataType="System.Collections.Generic.List`1[[TarayiciDeneme.FisListe, Nar10 Web, Version=1.0.0.68, Culture=neutral, PublicKeyToken=null]]" Enabled="true">
+      <Column Name="aciklama" DataType="System.String"/>
+      <Column Name="belge_no" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="cari" DataType="TarayiciDeneme.caridetay, Nar10 Web, Version=1.0.0.68, Culture=neutral, PublicKeyToken=null">
+        <Column Name="aciklama" DataType="System.String"/>
+        <Column Name="aile_sira_no" DataType="System.String"/>
+        <Column Name="alacak" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="alt_grup" DataType="System.String"/>
+        <Column Name="ana_grup" DataType="System.String"/>
+        <Column Name="anne_adi" DataType="System.String"/>
+        <Column Name="baba_adi" DataType="System.String"/>
+        <Column Name="bakiye" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="borc" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="cari_kart_tipi" DataType="System.String"/>
+        <Column Name="cilt_no" DataType="System.String"/>
+        <Column Name="cinsiyet" DataType="System.String"/>
+        <Column Name="created_at" DataType="System.String"/>
+        <Column Name="deleted_at" DataType="System.String"/>
+        <Column Name="dogum_tarihi" DataType="System.String"/>
+        <Column Name="dogum_yeri" DataType="System.String"/>
+        <Column Name="durum" DataType="System.String"/>
+        <Column Name="eposta" DataType="System.String"/>
+        <Column Name="evlilik_taarih" DataType="System.String"/>
+        <Column Name="id" DataType="System.Int32"/>
+        <Column Name="il" DataType="System.String"/>
+        <Column Name="ilce" DataType="System.String"/>
+        <Column Name="indirim_orani" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="karaliste" DataType="System.String"/>
+        <Column Name="kayit_no" DataType="System.String"/>
+        <Column Name="kimlik_belge_turu" DataType="System.String"/>
+        <Column Name="kimlik_verilis_nedeni" DataType="System.String"/>
+        <Column Name="kimlik_verilis_tarih" DataType="System.String"/>
+        <Column Name="kodu" DataType="System.String"/>
+        <Column Name="mahalle_koy" DataType="System.String"/>
+        <Column Name="ozel_kod1" DataType="System.String"/>
+        <Column Name="ozel_kod10" DataType="System.String"/>
+        <Column Name="ozel_kod11" DataType="System.String"/>
+        <Column Name="ozel_kod12" DataType="System.String"/>
+        <Column Name="ozel_kod13" DataType="System.String"/>
+        <Column Name="ozel_kod14" DataType="System.String"/>
+        <Column Name="ozel_kod15" DataType="System.String"/>
+        <Column Name="ozel_kod2" DataType="System.String"/>
+        <Column Name="ozel_kod3" DataType="System.String"/>
+        <Column Name="ozel_kod4" DataType="System.String"/>
+        <Column Name="ozel_kod5" DataType="System.String"/>
+        <Column Name="ozel_kod6" DataType="System.String"/>
+        <Column Name="ozel_kod7" DataType="System.String"/>
+        <Column Name="ozel_kod8" DataType="System.String"/>
+        <Column Name="ozel_kod9" DataType="System.String"/>
+        <Column Name="risk_limiti" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="satis_elemani" DataType="System.String"/>
+        <Column Name="sayi_ek_alan1" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="sayi_ek_alan10" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="sayi_ek_alan2" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="sayi_ek_alan3" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="sayi_ek_alan4" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="sayi_ek_alan5" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="sayi_ek_alan6" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="sayi_ek_alan7" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="sayi_ek_alan8" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="sayi_ek_alan9" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="seri_no" DataType="System.String"/>
+        <Column Name="turu" DataType="System.String"/>
+        <Column Name="unvan" DataType="System.String"/>
+        <Column Name="updated_at" DataType="System.String"/>
+        <Column Name="vergi_dairesi" DataType="System.String"/>
+        <Column Name="vergi_no" DataType="System.String"/>
+        <Column Name="yazi_ek_alan1" DataType="System.String"/>
+        <Column Name="yazi_ek_alan10" DataType="System.String"/>
+        <Column Name="yazi_ek_alan2" DataType="System.String"/>
+        <Column Name="yazi_ek_alan3" DataType="System.String"/>
+        <Column Name="yazi_ek_alan4" DataType="System.String"/>
+        <Column Name="yazi_ek_alan5" DataType="System.String"/>
+        <Column Name="yazi_ek_alan6" DataType="System.String"/>
+        <Column Name="yazi_ek_alan7" DataType="System.String"/>
+        <Column Name="yazi_ek_alan8" DataType="System.String"/>
+        <Column Name="yazi_ek_alan9" DataType="System.String"/>
+        <Column Name="adres" DataType="adresInfo, Nar10 Web, Version=1.0.0.68, Culture=neutral, PublicKeyToken=null">
+          <Column Name="id" DataType="System.Int32"/>
+          <Column Name="nd_001_cari_id" DataType="System.Int32"/>
+          <Column Name="tanimi" DataType="System.String"/>
+          <Column Name="adres" DataType="System.String"/>
+          <Column Name="posta_kodu" DataType="System.String"/>
+          <Column Name="il" DataType="System.String"/>
+          <Column Name="ilce" DataType="System.String"/>
+          <Column Name="ulke" DataType="System.String"/>
+          <Column Name="telefon1" DataType="System.String"/>
+          <Column Name="telefon2" DataType="System.String"/>
+          <Column Name="cep_telefon1" DataType="System.String"/>
+          <Column Name="cep_telefon2" DataType="System.String"/>
+          <Column Name="koordinat" DataType="System.String"/>
+          <Column Name="not" DataType="System.String"/>
+          <Column Name="visible" DataType="System.Char"/>
+          <Column Name="deleted_at" DataType="System.String"/>
+          <Column Name="created_at" DataType="System.String"/>
+          <Column Name="updated_at" DataType="System.String"/>
+        </Column>
+      </Column>
+      <Column Name="created_at" DataType="System.String"/>
+      <Column Name="deleted_at" DataType="System.String"/>
+      <Column Name="fatura_adresi" DataType="System.String"/>
+      <Column Name="fatura_no" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="fis_no" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="id" DataType="System.Int32"/>
+      <Column Name="iskonto_not" DataType="System.String"/>
+      <Column Name="iskonto_tutar" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="iskonto_yuzde" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <BusinessObjectDataSource Name="kalemler" DataType="System.Collections.Generic.List`1[[TarayiciDeneme.fisKalem, Nar10 Web, Version=1.0.0.68, Culture=neutral, PublicKeyToken=null]]" Enabled="true">
+        <Column Name="aciklama" DataType="System.String"/>
+        <Column Name="belge_no" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="birim_fiyat" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="created_at" DataType="System.String"/>
+        <Column Name="deleted_at" DataType="System.String"/>
+        <Column Name="fatura_no" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="fis_no" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="id" DataType="System.Int32"/>
+        <Column Name="indirim_tutar1" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="indirim_tutar2" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="indirim_tutar3" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="indirim_tutar4" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="indirim_tutar5" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="indirim_yuzde1" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="indirim_yuzde2" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="indirim_yuzde3" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="indirim_yuzde4" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="indirim_yuzde5" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="kdv" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="kdv_dahil_haric" DataType="System.String"/>
+        <Column Name="kdv_tutar" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="kur" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="miktar" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="nd_000_depo_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="nd_000_hedefdepo_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="nd_000_stok_altbirim_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="nd_001_cari_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="nd_001_fatura_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="nd_001_stok_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="saat" DataType="System.String"/>
+        <Column Name="seri" DataType="System.String"/>
+        <Column Name="sira" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="stok" DataType="TarayiciDeneme.stokdetay, Nar10 Web, Version=1.0.0.68, Culture=neutral, PublicKeyToken=null">
+          <Column Name="ad" DataType="System.String"/>
+          <Column Name="agirlik" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="alis_iskonto" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="barkod" DataType="System.String"/>
+          <Column Name="boy" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="cinsi" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="created_at" DataType="System.String"/>
+          <Column Name="deleted_at" DataType="System.String"/>
+          <Column Name="diger_ad" DataType="System.String"/>
+          <Column Name="dpkod" DataType="System.String"/>
+          <Column Name="en" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="en_az" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="en_cok" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="kar_orani" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="kdv_dahil" DataType="System.String"/>
+          <Column Name="kod" DataType="System.String"/>
+          <Column Name="nd_000_departman_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="nd_000_stok_altbirim_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="nd_000_stok_altgrup_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="nd_000_stok_altkategori_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="nd_000_stok_anagrup_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="nd_000_stok_anakategori_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="nd_000_stok_beden_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="nd_000_stok_birim_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="nd_000_stok_renk_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="nd_000_stok_satici" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="nd_000_stok_uretici" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="ozel_kod" DataType="System.String"/>
+          <Column Name="ozel_kod1" DataType="System.String"/>
+          <Column Name="ozel_kod10" DataType="System.String"/>
+          <Column Name="ozel_kod11" DataType="System.String"/>
+          <Column Name="ozel_kod12" DataType="System.String"/>
+          <Column Name="ozel_kod13" DataType="System.String"/>
+          <Column Name="ozel_kod14" DataType="System.String"/>
+          <Column Name="ozel_kod2" DataType="System.String"/>
+          <Column Name="ozel_kod3" DataType="System.String"/>
+          <Column Name="ozel_kod4" DataType="System.String"/>
+          <Column Name="ozel_kod5" DataType="System.String"/>
+          <Column Name="ozel_kod6" DataType="System.String"/>
+          <Column Name="ozel_kod7" DataType="System.String"/>
+          <Column Name="ozel_kod8" DataType="System.String"/>
+          <Column Name="ozel_kod9" DataType="System.String"/>
+          <Column Name="pkod" DataType="System.String"/>
+          <Column Name="raf" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="raf_omru" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="resim_url" DataType="System.String"/>
+          <Column Name="satis_iskonto" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="sayi_ek_alan1" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="sayi_ek_alan10" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="sayi_ek_alan2" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="sayi_ek_alan3" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="sayi_ek_alan4" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="sayi_ek_alan5" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="sayi_ek_alan6" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="sayi_ek_alan7" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="sayi_ek_alan8" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="sayi_ek_alan9" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="updated_at" DataType="System.String"/>
+          <Column Name="visible" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+          <Column Name="yazi_ek_alan1" DataType="System.String"/>
+          <Column Name="yazi_ek_alan10" DataType="System.String"/>
+          <Column Name="yazi_ek_alan2" DataType="System.String"/>
+          <Column Name="yazi_ek_alan3" DataType="System.String"/>
+          <Column Name="yazi_ek_alan4" DataType="System.String"/>
+          <Column Name="yazi_ek_alan5" DataType="System.String"/>
+          <Column Name="yazi_ek_alan6" DataType="System.String"/>
+          <Column Name="yazi_ek_alan7" DataType="System.String"/>
+          <Column Name="yazi_ek_alan8" DataType="System.String"/>
+          <Column Name="yazi_ek_alan9" DataType="System.String"/>
+          <Column Name="yukseklik" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        </Column>
+        <Column Name="tarih" DataType="System.String"/>
+        <Column Name="turu" DataType="System.String"/>
+        <Column Name="tutar" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+        <Column Name="updated_at" DataType="System.String"/>
+        <Column Name="urun_adedi" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      </BusinessObjectDataSource>
+      <Column Name="kur" DataType="System.Double"/>
+      <Column Name="masraf_not" DataType="System.String"/>
+      <Column Name="masraf_tutar" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="masraf_yuzde" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="nd_000_depo_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="nd_000_doviz_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="nd_001_cari_id" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="saat" DataType="System.String"/>
+      <Column Name="satici" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="seri" DataType="System.String"/>
+      <Column Name="sevk_adresi" DataType="System.String"/>
+      <Column Name="sira" DataType="System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="tarih" DataType="System.DateTime" Format="Date"/>
+      <Column Name="toplam_indirim" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="toplam_kdv" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="toplam_miktar" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="toplam_satir" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="toplam_tutar" DataType="System.Nullable`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"/>
+      <Column Name="turu" DataType="System.String"/>
+      <Column Name="updated_at" DataType="System.String"/>
+      <Column Name="vade" DataType="System.String"/>
+    </BusinessObjectDataSource>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="220" PaperHeight="280" RawPaperSize="9" LeftMargin="0" TopMargin="55" RightMargin="0" BottomMargin="0">
+    <PageHeaderBand Name="PageHeader1" Width="831.6" Height="198.45">
+      <TextObject Name="Text54" Left="75.6" Top="3.78" Width="338.31" Height="94.5" Text="[fatura.cari.unvan]&#13;&#10;&#13;&#10;[fatura.cari.adres.adres]&#13;&#10;&#13;&#10;[fatura.cari.adres.ilce]-[fatura.cari.adres.il]" Format="Number" Format.UseLocale="true" Font="Microsoft Sans Serif, 6pt" FontWidthRatio="1.5"/>
+      <TextObject Name="Text55" Left="75.6" Top="151.2" Width="179.55" Height="28.35" CanShrink="true" Text="[fatura.cari.vergi_dairesi]" Format="Number" Format.UseLocale="true" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 6pt" FontWidthRatio="1.5"/>
+      <TextObject Name="Text56" Left="321.3" Top="151.2" Width="147.42" Height="28.35" CanShrink="true" Text="[fatura.cari.vergi_no]" Format="Number" Format.UseLocale="true" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 6pt" FontWidthRatio="1.5"/>
+      <TextObject Name="Text2" Left="576.45" Top="75.6" Width="170.1" Height="18.9" Text="[fatura.tarih]" Format="Date" Format.Format="d" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 6pt" FontWidthRatio="1.5"/>
+      <TextObject Name="Text57" Left="576.45" Top="113.4" Width="170.1" Height="18.9" Text="[fatura.tarih]" Format="Date" Format.Format="d" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 6pt" FontWidthRatio="1.5"/>
+      <TextObject Name="Text58" Left="576.45" Top="151.2" Width="170.1" Height="18.9" Text="[fatura.saat]" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 6pt" FontWidthRatio="1.5"/>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="202.45" Width="831.6" Height="18.9" DataSource="kalemler">
+      <TextObject Name="Text8" Left="122.85" Width="349.65" Height="18.9" CanShrink="true" Text="[fatura.kalemler.stok.ad]" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 8.25pt" FontWidthRatio="1.5"/>
+      <TextObject Name="Text33" Left="595.35" Width="113.4" Height="18.9" CanShrink="true" Text="[fatura.kalemler.tutar]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 8.25pt" Trimming="EllipsisCharacter" FontWidthRatio="1.5"/>
+      <TextObject Name="Text12" Left="18.9" Width="75.6" Height="18.9" CanShrink="true" Text="[fatura.kalemler.miktar]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 8.25pt" FontWidthRatio="1.5"/>
+      <TextObject Name="Text31" Left="472.5" Width="98.28" Height="18.9" CanShrink="true" Text="[fatura.kalemler.birim_fiyat]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 8.25pt" Trimming="EllipsisCharacter" FontWidthRatio="1.5"/>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="225.35" Width="831.6" Height="179.55">
+      <TextObject Name="Text47" Left="585.9" Top="141.75" Width="113.4" Height="37.8" CanShrink="true" Text="[fatura.toplam_tutar]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 8.25pt" FontWidthRatio="1.5"/>
+      <TextObject Name="Text46" Left="585.9" Top="83.16" Width="113.4" Height="37.8" CanShrink="true" Text="[fatura.toplam_kdv]" Format="Number" Format.UseLocale="true" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 8.25pt" FontWidthRatio="1.5"/>
+      <TextObject Name="Text1" Left="585.9" Top="30.24" Width="113.4" Height="37.8" CanShrink="true" Text="[fatura.toplam_tutar]" HorzAlign="Right" VertAlign="Center" WordWrap="false" Font="Microsoft Sans Serif, 8.25pt" FontWidthRatio="1.5">
+        <Formats>
+          <NumberFormat/>
+          <NumberFormat/>
+          <NumberFormat/>
+          <NumberFormat/>
+        </Formats>
+      </TextObject>
+      <TextObject Name="Text3" Left="491.4" Top="85.05" Width="37.8" Height="18.9" Text="8"/>
+    </PageFooterBand>
+  </ReportPage>
+</Report>

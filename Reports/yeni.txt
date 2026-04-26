@@ -1,0 +1,2 @@
+Update sistemi test dosyasi.
+Bu dosya update.posingo.com uzerinden musterilere gonderilmeli.
